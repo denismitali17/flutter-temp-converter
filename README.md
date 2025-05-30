@@ -4,9 +4,9 @@ A sleek and responsive **Temperature Converter** built with Flutter that allows 
 
 ---
 
-## 📱 Features
+##  Features
 
--  **Two-way Conversion**: Convert between Fahrenheit ➡️ Celsius and Celsius ➡️ Fahrenheit.
+-  **Two-way Conversion**: Convert between Fahrenheit to Celsius and Celsius to Fahrenheit.
 -  **Intelligent UI**: Only one conversion type can be selected at a time.
 -  **Accurate Results**: Displays converted temperatures rounded to **2 decimal places**.
 -  **Conversion History**: Tracks and displays all past conversions (latest at the top).
@@ -19,9 +19,9 @@ A sleek and responsive **Temperature Converter** built with Flutter that allows 
 
 ### Prerequisites
 
-- ✅ Flutter SDK installed (v3.0 or later)
-- ✅ Any IDE like VS Code or Android Studio
-- ✅ Device emulator or real device
+-  Flutter SDK installed (v3.0 or later)
+-  Any IDE like VS Code or Android Studio
+-  Device emulator or real device
 
 ### Installation
 
