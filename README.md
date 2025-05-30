@@ -53,29 +53,29 @@ A sleek and responsive **Temperature Converter** built with Flutter that allows 
 
   **Tech Stack**
 
-**Flutter** – UI toolkit by Google
+- **Flutter** – UI toolkit by Google
 
-**Dart** – Programming language
+- **Dart** – Programming language
 
-**State Management** – setState() for simple and efficient updates
+- **State Management** – setState() for simple and efficient updates
 
 **Code Structure**
 
-**main.dart**: Contains all UI\, logic, and layout using widgets like TextField, Radio, Column, Row, ListView, and Container.
+- **main.dart**: Contains all UI\, logic, and layout using widgets like TextField, Radio, Column, Row, ListView, and Container.
 
 **Uses:**
 
-StatefulWidget to manage and update UI
+- StatefulWidget to manage and update UI
 
-TextEditingController to manage input
+- TextEditingController to manage input
 
-MediaQuery for responsive design
+- MediaQuery for responsive design
 
-ListView.builder to show history
+- ListView.builder to show history
 
 **Conversion Formulae**
 
-°F = °C × 9/5 + 32
+- °F = °C × 9/5 + 32
 
-°C = (°F − 32) × 5/9
+- °C = (°F − 32) × 5/9
 
