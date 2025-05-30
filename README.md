@@ -6,17 +6,16 @@ A sleek and responsive **Temperature Converter** built with Flutter that allows 
 
 ## 📱 Features
 
-- 🔄 **Two-way Conversion**: Convert between Fahrenheit ➡️ Celsius and Celsius ➡️ Fahrenheit.
-- 💡 **Intelligent UI**: Only one conversion type can be selected at a time.
-- 🧮 **Accurate Results**: Displays converted temperatures rounded to **2 decimal places**.
-- 📜 **Conversion History**: Tracks and displays all past conversions (latest at the top).
-- 🔄 **Responsive Design**: Adapts seamlessly between portrait and landscape orientations.
-- 🎨 **Clean, modern UI** that’s easy to use and visually appealing.
-
+-  **Two-way Conversion**: Convert between Fahrenheit ➡️ Celsius and Celsius ➡️ Fahrenheit.
+-  **Intelligent UI**: Only one conversion type can be selected at a time.
+-  **Accurate Results**: Displays converted temperatures rounded to **2 decimal places**.
+-  **Conversion History**: Tracks and displays all past conversions (latest at the top).
+-  **Responsive Design**: Adapts seamlessly between portrait and landscape orientations.
+-  **Clean, modern UI** that’s easy to use and visually appealing.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -28,57 +27,51 @@ A sleek and responsive **Temperature Converter** built with Flutter that allows 
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/denismitali17/flutter-temp-converter
+   git clone https://github.com/yourusername/temperature_converter_flutter.git
    cd temperature_converter_flutter
-````
 
-2. **Run the app**
+2.  **Run The App**
+     ```bash 
+    flutter pub get
+    flutter run
 
-   ```bash
-   flutter pub get
-   flutter run
-   ```
+   **How It Works**
+      1. Select the conversion type:
 
----
+         Fahrenheit to Celsius or
 
-## 🧠 How It Works
+         Celsius to Fahrenheit
 
-1. Select the conversion type:
+      2. Enter the temperature in the input field.
 
-    * `Fahrenheit to Celsius` or
-    * `Celsius to Fahrenheit`
+      3. Tap on the CONVERT button.
 
-2. Enter the temperature in the input field.
+      4. The result will appear beside the input field, rounded to two decimal places.
 
-3. Tap on the **CONVERT** button.
+      5. Each conversion is automatically logged into a history list, shown either below (portrait) or beside (landscape) the converter.
 
-4. The result will appear beside the input field, rounded to two decimal places.
+  **Tech Stack**
+Flutter – UI toolkit by Google
 
-5. Each conversion is automatically logged into a **history list**, shown either below (portrait) or beside (landscape) the converter.
+Dart – Programming language
 
----
+State Management – setState() for simple and efficient updates
 
-## 🧱 Tech Stack
+**Code Structure**
+main.dart: Contains all UI, logic, and layout using widgets like TextField, Radio, Column, Row, ListView, and Container.
 
-* **Flutter** – UI toolkit by Google
-* **Dart** – Programming language
-* **State Management** – `setState()` for simple and efficient updates
+Uses:
 
----
+StatefulWidget to manage and update UI
 
-## 💻 Code Structure
+TextEditingController to manage input
 
-* `main.dart`: Contains all UI, logic, and layout using widgets like `TextField`, `Radio`, `Column`, `Row`, `ListView`, and `Container`.
-* Uses:
+MediaQuery for responsive design
 
-    * `StatefulWidget` to manage and update UI
-    * `TextEditingController` to manage input
-    * `MediaQuery` for responsive design
-    * `ListView.builder` to show history
+ListView.builder to show history
 
----
+**Conversion Formulae**
+°F = °C × 9/5 + 32
 
-## 📝 Conversion Formulae
+°C = (°F − 32) × 5/9
 
-* °F = °C × 9/5 + 32
-* °C = (°F − 32) × 5/9
